@@ -19,21 +19,11 @@ public class FunctionDemo {
 //        };
 
 
-          /*Function function = (str) ->{
+          Function function = (str) ->{
             return str;
-          };*/
+          };
 //        Function function = str -> str;
 
-//        System.out.println(function.apply("abc"));
-
-        List<String> list = new ArrayList<>();
-        list.add("1");
-        list.add("2");
-
-//        for (String a :list) {
-//            System.out.println(a);
-//        }
-
-//        list.forEach(System.out::println);
+        System.out.println(function.apply("abc"));
     }
 }
